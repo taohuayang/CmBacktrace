@@ -219,8 +219,8 @@ void cm_backtrace_fault(uint32_t fault_handler_lr, uint32_t fault_handler_sp)
 采用 MIT 开源协议，细节请阅读项目中的 LICENSE 文件内容。
 
 
-#20210201 test report
-##1. 在ucosii中添加库，将cm_backtrace文件夹内文件添加即可，包括cmb_fault.S，注意要在工程中包含；
-##2. addr2line需要在cmd命令行中运行，参考https://blog.csdn.net/nicholas_duan/article/details/103470873；
+# 20210201 test report
+## 1. 在ucosii中添加库，将cm_backtrace文件夹内文件添加即可，包括cmb_fault.S，注意要在工程中包含；
+## 2. addr2line需要在cmd命令行中运行，参考https://blog.csdn.net/nicholas_duan/article/details/103470873；
 
 
